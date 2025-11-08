@@ -1,0 +1,12 @@
+Student_ID,Name,Age,Gender,Math_Score,Science_Score,English_Score
+1,Ali,16,M,85.0,78.0,88.0
+2,Sara,17,F,90.0,,82.0
+3,Ahmed,16,M,76.0,74.0,80.0
+4,Ayesha,15,F,,85.0,79.0
+5,Bilal,17,M,88.0,90.0,85.0
+6,Hina,16,F,92.0,95.0,91.0
+7,Usman,15,M,70.0,68.0,72.0
+8,Mahnoor,16,F,85.0,83.0,
+9,Zain,17,M,80.0,78.0,81.0
+10,Laiba,15,F,95.0,92.0,94.0
+ 
