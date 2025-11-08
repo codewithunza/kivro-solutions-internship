@@ -18,6 +18,8 @@ def get_all_files(directory):
     for root, dirs, files in os.walk(directory):
         if ".git" in dirs:
             dirs.remove(".git")  # Exclude the .git directory
+        if "venv" in dirs:
+            dirs.remove("venv")
         for file in files:
             all_files.append(os.path.join(root, file))
     return all_files
@@ -65,7 +67,7 @@ def main():
             commit_message = f"update: {os.path.basename(file_path)} on {date_str}"
             
             subprocess.run(
-                ["git", "commit", "-m", commit_message],
+                ["git", "commit", "--no-verify", "-m", commit_message],
                 env=env,
                 check=True
             )
