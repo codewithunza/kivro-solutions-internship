@@ -159,4 +159,4 @@ If you found this work interesting or have any questions, feel free to reach out
 **Status:** ✅ Internship Completed  
 **Certificate:** Awaiting evaluation
 
-*This project was completed as part of the KivroSolutions Data Science Internship Program.*   
+*This project was completed as part of the KivroSolutions Data Science Internship Program.*    
